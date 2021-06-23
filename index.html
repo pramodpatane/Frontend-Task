@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- external css link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container"> 
+            <h5 class="float-left">Addhelp.io | Company Name</h5> 
+            <a href=""><h5 class="float-right">Collaborate | Logout</h5></a>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 left">
+                    <p class="float-left">Daily Cost: <span class="font-weight-bold" id="cost">SEK 1,000</span></p>
+                    <p class="float-right">Projected monthly budget: <span class="font-weight-bold" id="cost">SEK 31,698</span></p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-2 right">
+                    <select name="ads" id="ads" class="form-control">
+                        <option value="1">Google Ads</option>
+                        <option value="2">Google Ads</option>
+                        <option value="3">Google Ads</option>
+                        <option value="4">Google Ads</option>
+                    </select>
+                </div>
+                <div class="col-md-2 right">
+                    <select name="range" id="range" class="form-control">
+                        <option value="0">Select range</option>
+                        <option value="1">1-4</option>
+                        <option value="2">4-6</option>
+                        <option value="3">6-8</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <p class="card-title">Clicks</p>
+                          <h6 class="card-subtitle mb-2">25,000</h6>
+                          <p class="card-text">Yaay! <span class="text-primary font-weight-bold">+5000</span> than last month</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                          <p class="card-title">Revenue</p>
+                          <h6 class="card-subtitle mb-2">79,963</h6>
+                          <p class="card-text">Yaay! <span class="text-primary font-weight-bold">+500</span> than last month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <p class="card-title">Cost</p>
+                          <h6 class="card-subtitle mb-2">29,256</h6>
+                          <p class="card-text">Oops! <span class="text-danger font-weight-bold">+SEK 500</span> than last month</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                          <p class="card-title">Conversion Rate</p>
+                          <h6 class="card-subtitle mb-2">20%</h6>
+                          <p class="card-text">You are <span class="text-danger font-weight-bold">+SEK 50</span> off the target</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <strong>Top 3 performing Ads/ URLs</strong>
+                    <p>(Based on most conversions/ Clicks)</p>
+                    <div class="card">
+                        <div class="card-body">
+                          <p class="card-text text"><span class="number">1</span>Nike Air | Sports Shoes | Summer sale</p>
+                          <p class="card-text text"><span class="number">2</span>Nike sport | Sports Shoes female | Summer sale</p>
+                          <p class="card-text text"><span class="number">3</span>Nike Air Max | Men's Shoes | Summer sale</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <h4>Conversion Summary</h4>
+            <div class="graph-map">
+                <h6>Last 30 days</h6>
+                <img class="graph" src="./assets/Path 40@1X.png" width="100%" alt="">
+            </div>
+
+            <section class="end">
+                <a class="btn btn-1"><i class="fab fa-facebook-f"></i>Advertise on Facebook</a>
+                <a class="btn btn-2"><img src="./assets/slack@1X.png" width="15px">Connect to slack</a>
+                <a class="btn btn-3"><i class="fas fa-lightbulb"></i>Knowledge center</a>
+            </section>
+        </div>
+    </section>
+
+    <!-- Scripting files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
